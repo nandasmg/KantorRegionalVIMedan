@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: fixed;
+  background-color: white;
+}
+
+.container {
+  height: 100vh;
+  width: 230px;
+  background-color: #4070f4;
+}
+
+.wrapper {
+  position: relative;
+  top: 50px;
+}
+
+.title {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 25px;
+  left: 10px;
+}
+
+.clock {
+  position: relative;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  top: 50px;
+}
+
+.clock1 {
+  position: absolute;
+  text-align: center;
+  left: 43px;
+  bottom: 5px;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link {
+  position: relative;
+  top: 100px;
+}
+
+a {
+  color: rgb(230, 230, 230);
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.link1 {
+  position: relative;
+  margin: 15px;
+  left: 20px;
+}
+
+.wrapper2 {
+  position: relative;
+  left: 250px;
+}
+
+.profil {
+  position: relative;
+  top: 5px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.wrapper3 {
+  position: relative;
+  bottom: 205px;
+  left: 230px;
+  width: 400px;
+  height: 515px;
+  background-color: wheat;
+}
+
+.table {
+  position: relative;
+  top: 20px;
+}
+
+th {
+  position: relative;
+  right: 120px;
+  top: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 5px;
+}
+
+th.nip {
+  position: relative;
+  right: 143px;
+}
+
+th.nama {
+  position: relative;
+  right: 133px;
+}
+
+th.alamat {
+  position: relative;
+  right: 125px;
+}
+
+th.th-tanggal {
+  position: relative;
+}
+
+input {
+  position: relative;
+  left: 20px;
+  width: 350px;
+  height: 27px;
+}
+
+.select {
+  position: relative;
+  left: 20px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+}
+
+.button {
+  position: relative;
+  top: 50px;
+}
+
+.simpan {
+  width: 80px;
+  height: 30px;
+  background-color: #06d03c;
+  color: white;
+  border: none;
+  transition: 0.1s all ease;
+}
+.simpan:active {
+  transform: scale(0.9);
+}
+
+.batal1 {
+  position: relative;
+  right: 250px;
+}
+
+.batal {
+  width: 80px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  transition: 0.1s all ease;
+}
+.batal:active {
+  transform: scale(0.9);
+}
+
+.jeniskelamin {
+  position: relative;
+  right: 98px;
+}
+
+.jenskela {
+  position: relative;
+  right: 26px;
+}
+
+.perem {
+  position: relative;
+  top: 10px;
+  right: 220px;
+  width: 10px;
+}
+.radio {
+  width: 80px;
+}
+label.laki {
+  position: relative;
+  bottom: 7px;
+  left: 10px;
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.wanita {
+  position: relative;
+  bottom: 25px;
+  left: 95px;
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.almt {
+  position: relative;
+  bottom: 30px;
+}
